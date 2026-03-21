@@ -6,7 +6,9 @@ HPE GenAI for GenZ Challenge 2025 | Intel Unnati Programme
 API Stack:
   ScaleDown API  → Intelligent context compression (x-api-key header)
   Gemini API     → Emergency triage response (genai.configure)
+  inside the website
 """
+
 
 import streamlit as st
 import requests
@@ -15,10 +17,7 @@ import google.generativeai as genai
 from sample_patients import PATIENTS, get_patient_names, get_patient
 from record_expander import get_extended_record
 
-# ──────────────────────────────────────────────────────────────────────────────
-# PAGE CONFIG
-# ──────────────────────────────────────────────────────────────────────────────
-
+#page config 
 st.set_page_config(
     page_title="TriageAI — Emergency Triage Assistant",
     page_icon="🚨",
@@ -26,10 +25,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# ──────────────────────────────────────────────────────────────────────────────
-# STYLING
-# ──────────────────────────────────────────────────────────────────────────────
-
+#styling
 st.markdown("""
 <style>
     @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;600;700&display=swap');

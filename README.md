@@ -187,7 +187,7 @@ Haiku is 5-10× cheaper than GPT-4 while maintaining excellent clinical instruct
 
 ## 👤 Team
 
-**[Your Name]** — HPE GenAI for GenZ Challenge 2025  
+**[ANkitSIngh, Giri Siddharth]** — HPE GenAI for GenZ Challenge 2026 
 Intel Unnati Programme Participant
 
 ---
